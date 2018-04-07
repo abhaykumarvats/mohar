@@ -1,2 +1,2 @@
-# timestamp-ms
-Convert UNIX epoch time to natural and vice versa
+# mohar
+Convert UNIX timestamp to natural date and vice versa
