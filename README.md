@@ -3,6 +3,7 @@
     * [Features](#features)
 * [Documentaion](#documentation)
 * [Fun Fact](#fun-fact)
+* [Special Thanks](#special-thanks)
 
 # Introduction
 Mohar is a RESTful web API that can be used to convert UNIX timestamp to natural date and vice versa.
@@ -102,9 +103,12 @@ __Base URL:__ `https://mohar.herokuapp.com`
 
 * __Note__
 
-    You get Error Response when provided datestring is invalid (e.g., February 13, 1997). Use escape characters and correct spellings.
+    You get Error Response when provided datestring is invalid (e.g., Fab 13, 19NinetySeven). Use escape characters and correct format & spelling.
 
 # Fun Fact
-'Mohar' in Hindi means 'Stamp'.
+`Mohar` in `Hindi` means `Stamp`.
 
-#### Signing-off v1.0, Abhay Kumar
+# Special Thanks
+To [Irene Ros](https://github.com/iros) for the doc [template](https://gist.github.com/iros/3426278).
+
+#### Signing-off v1.1, Abhay Kumar
