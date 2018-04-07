@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abhaykv04/timestamp-ms/issues"
   },
-  "homepage": "https://github.com/abhaykv04/timestamp-ms#readme"
+  "homepage": "https://github.com/abhaykv04/timestamp-ms#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
