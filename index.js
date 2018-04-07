@@ -5,6 +5,9 @@ var app = express();
 // Require converter module
 var convert = require('./converter');
 
+// Assign port number
+var PORT = process.env.PORT || 3000;
+
 // Listen for requests on /
 app.get('/', (req, res) => {
     // Redirect to repo page
@@ -20,6 +23,6 @@ app.get('/:queryString', (req, res) => {
 });
 
 // Listen on port 3000
-app.listen(3000, () => {
-    console.log('(mohar): Listening on 3000');
+app.listen(PORT, () => {
+    console.log('(mohar): Listening on port', PORT);
 });
