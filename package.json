@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Convert UNIX timestamp to natural date and vice versa",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhaykv04/mohar.git"
